@@ -1,0 +1,82 @@
+.icon_box{
+    width: 100px;
+    height: 100px;
+    background-color: black
+}
+.white_block{
+    height: 100%;
+    background-color: white;
+    border-radius: 0px 8px 8px 0px;
+}
+.white_block > p {
+    flex-wrap: wrap;
+    word-wrap: break-word;
+    text-align: left;
+    padding-left: 10px;
+}
+.icon_blue{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 22px 0;
+    color: white;
+    background-color: #36a2eb;
+    border-radius: 8px 0px 0px 8px;
+}
+.icon_orange{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 22px 0;
+    color: white;
+    background-color: #ffce56;
+    border-radius: 8px 0px 0px 8px;
+}
+.icon_green{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 22px 0;
+    color: white;
+    background-color: #4bc0c0;
+    border-radius: 8px 0px 0px 8px;
+}
+.icon_red{
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    padding: 22px 0;
+    color: white;
+    background-color: #f8324b;
+    border-radius: 8px 0px 0px 8px;
+}
+.widget_value{
+    margin-top:10px;
+}
+.widget_description{
+    font-size: 20px;
+}
+.rowWidgetsCard{
+    height: 100px;
+}
+
+@media screen and (max-width: 992px) {
+    .white_block > p {
+      text-align: center
+    }
+    .white_block{
+        border-radius: 0 0 8px 8px;
+    }
+    .icon_blue{
+        border-radius: 8px 8px 0 0;
+    }
+    .icon_orange{
+        border-radius: 8px 8px 0 0;
+    }
+    .icon_green{
+        border-radius: 8px 8px 0 0;
+    }
+    .icon_red{
+        border-radius: 8px 8px 0 0;
+    }
+  }
